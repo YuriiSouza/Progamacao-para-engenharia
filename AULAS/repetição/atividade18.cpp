@@ -5,7 +5,7 @@ int main()
 {   
     char c;
     int x, y, m, me;
-
+    y = 0;
     do{
         printf("digite um valor:");
         scanf("%d", &x);
@@ -23,7 +23,8 @@ int main()
         }
     while(1);
     
-    printf("O MAIOR: %d\nMENOR: %d", m, me);
+    printf("MAIOR: %d\n", m);
+    printf("MENOR: %d", me);
     system("pause");
     return 0;
 }
